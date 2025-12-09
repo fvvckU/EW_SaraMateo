@@ -1,0 +1,71 @@
+.CO {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.coñito{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+.azul{
+    background-color: rgb(162, 221, 246);
+    flex-shrink: 15;
+    width: 150px;
+    height: 90px; 
+}
+
+.amarillo{
+    background-color: yellow;
+    flex-grow: 2;
+    width: 150px;
+    height: 90px; 
+}
+.naranja{
+    background-color: orange;
+    width: 150px;
+    height: 90px; 
+}
+.azul2{
+    background-color:rgb(0, 68, 128) ;
+    flex-grow:1 ;
+    width: 150px;
+    height: 90px; 
+}
+.azul3{
+    background-color: rgb(19, 9, 124);
+    width: 150px;
+    height: 90px; 
+}
+.azul4{
+    background-color: rgb(27, 3, 72);
+    width: 150px;
+    height: 90px; 
+}
+
+
+.A{
+    display: flex;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+}
+
+a{
+    color:greenyellow;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+a:hover{
+    color:red;
+}
+a:visited{
+    color:purple;
+}
+a:active{
+    color:yellow;
+}
