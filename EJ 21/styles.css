@@ -1,0 +1,22 @@
+
+.a {
+background-color: grey;
+width: 80vw;
+height: 70vw;
+margin:auto;
+}
+
+.cuadro1 {background-color: fuchsia;
+width:60vw ;
+height: 30vw;
+}
+
+.cuadro2 {background-color: green;
+height: 30vw;
+width: 60vw;
+}
+
+footer {background-color: red;
+width: 80vw;
+height: 10vw;
+}
