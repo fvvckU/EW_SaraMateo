@@ -1,0 +1,10 @@
+.box {margin: auto;
+    display: flex;
+border: 1px black solid;
+width: 90vw;
+height: 100vw;}
+
+.nombres {background-color: fuchsia;
+margin: 15px;
+padding: 5px;
+}
