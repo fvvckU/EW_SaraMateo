@@ -1,0 +1,32 @@
+
+* {margin: 0 auto;}
+
+h1 {  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;}
+
+  section {display: flex;
+flex-wrap: wrap;
+text-align: center;
+margin-top: 100px;}
+
+.gay {background-color: yellow;
+    text-align: center;
+border: 3px solid orange;
+width: 100px;
+height: 20px;
+margin-top: 40px;}
+
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+a {color: blue;
+padding-top: 100px;
+}

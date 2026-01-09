@@ -1,0 +1,37 @@
+* {margin: 0 auto;
+text-align: center;
+flex-flow: column;}
+
+
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {background-image: url(img/Fondo.webp);
+background-size: cover;
+}
+
+header {margin-top: 300px;}
+
+a {
+color: lime;
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+a:hover {color: orangered;}
+
+p {.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+color: white;
+}
