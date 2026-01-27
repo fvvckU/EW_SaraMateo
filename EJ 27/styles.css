@@ -1,0 +1,135 @@
+*{
+  
+    text-align: center;
+    box-sizing: border-box;
+   
+}
+
+.titulo{
+ margin-top: 80px;
+}
+
+
+
+.mapa{
+    
+    
+    margin-bottom: 30px;
+    
+}
+iframe{
+    padding: 10px;
+    border: 2px solid orangered;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+
+h4{
+    text-align: center;
+    font-size: 15px;
+    color: orangered;
+    
+}
+
+
+.cuadrado{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.cuadrado div{
+    width: 150px;
+    height: 40px;
+    margin: 100px;
+    background-color: orangered;
+    margin-bottom: 15px;
+margin-top: 30px;
+padding: 8px;
+   
+}
+
+
+
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: white;
+    font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+ 
+  
+}
+
+.contenedor div {
+    width: 150px;
+    height: 150px;
+    margin: 72px;
+   font-size: 20px;
+   text-align: center;
+   padding-top: 60px;
+   
+}
+
+
+.c1{
+    background-color: blue;
+  
+}
+.c1:hover{
+color: black;
+ transform: translate(50px, 80px);
+background-color: white;
+border: 2px solid blue;
+
+}
+
+.c2{
+    background-color: rgb(232, 122, 232);
+}
+.c2:hover{
+    color: black;
+    transform: translate( 50px, -50px);
+    background-color: white;
+    border: 2px solid purple;
+}
+
+
+.c3{
+    background-color: yellow;
+    color: black;
+}
+
+.c3:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid yellow;
+    transform: translate( -50px, 50px);
+}
+
+.c4{
+    background-color: green;
+}
+.c4:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid green;
+    transform: translate(-50px, -50px);
+}
+
+footer{
+    text-align: center;
+}
