@@ -1,0 +1,106 @@
+* 
+  {margin: 0 auto;
+  
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+   font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  margin-left: 40px;
+  margin-top: 60px;
+  font-family: "new-astro-soft", sans-serif;
+font-weight: 700;
+font-style: normal;
+ 
+}
+
+
+.menu-bar {
+  background-color: #fe4932;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  font-size: 25px;
+   font-family: "alight-slab", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+}
+
+.menu-bar link{
+  width: 20%;
+  height: 30%;
+}
+
+.menu-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+
+.banner{
+  background-color: blue;
+margin: auto;
+width: 100%;
+margin-top: 100px;
+}
+
+.banner a img {
+  font-size: 80px;
+  font-weight: bold;
+  width: 100%;
+}
+
+
+main p {
+  text-align: center;
+  font-size: 50px;
+  margin: 40px 0;
+   font-family: "alight-slab", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+.chicas {
+  background-image: url("img/Fondo.webp");
+  background-size: cover;
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 40px;
+  font-size: 30px;
+   margin-top: 45px;
+  margin-bottom: 60px;
+  width: 95%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: #fe4932;
+   font-family: "alight-slab", sans-serif;
+font-weight: 400;
+font-style: normal;
+  
+}
