@@ -1,0 +1,84 @@
+* {margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {background-color: black;}
+
+
+header {color: white;
+text-align: center;
+margin-top: 30px;}
+
+h1 {font-size: 70px;
+  font-family: "Gravitas One", serif;
+  }
+
+h5 {font-size: 30px;
+margin-top: 30px;
+  font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+.go, .in, .jo {width: 500px;
+height: 500px;
+margin-top: 30px; 
+}
+
+nav {display: flex;
+flex-flow: row;
+flex-wrap: wrap;}
+
+nav div p {font-size: 50px;
+color: black;
+  font-family: "Gravitas One", serif;
+  padding-top: 90px;
+  
+}
+
+.it {background-color: yellow;
+padding: 2%;}
+
+.it:hover {background-image: url(img/gilda2.webp);
+background-size: cover;}
+
+.in {background-color: yellow;
+border: 10px solid red;}
+
+.jo {background-image: url(img/gilda3.jpg);
+background-size: cover;}
+
+footer {background-color: white;
+border: 10px solid red;
+width: 1200px;
+height: 200px;
+margin-top: 50px;}
+
+.lol {font-size: 25px;
+margin-bottom: 30px;
+text-align: center;
+  font-family: "Zalando Sans Expanded", sans-serif;}
+
+
+img {width: 100px; 
+display: none;   
+}
+
+.hi {display: flex;
+justify-content: center;
+margin-top: 100px;}
+
+
+@media (orientation: portrait) {
+nav {flex-direction: column;}
+nav div {background-color: olive;
+width: 200px;
+height: 200px;}
+.it {background-color: olive;}
+.in {background-color: olive;}
+.jo {background-color: olive;}
+.lol {display: none;}
+.hi {display: flex;
+flex-flow: column;}
+footer {display: none;}
+}
+
