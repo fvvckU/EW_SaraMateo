@@ -1,0 +1,104 @@
+* {margin: 0;
+text-decoration: none;}
+
+header div{
+     display: flex;
+     flex-direction: row;
+     justify-content: left;
+ 
+}
+
+header div img{ width: 15vw;}
+
+h1{
+     padding-top: 5vw;
+     font-size: 5vw;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+color: #771f1f;
+margin-bottom: 4vw;
+}
+
+
+
+ul {
+display: flex; 
+justify-content: space-around;
+margin-top: 2vw;
+width: 75vw;
+list-style: none;
+margin:auto;
+background-color: #f8d1d1;
+flex-wrap: wrap;}
+
+li {
+margin-top: 1vw;
+font-size: x-large;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+}
+
+li:hover {background-color: #e8a8a8;
+height: 2vw; 
+color: #771f1f;}
+
+section {margin-top: 3vw;}
+
+main {display: flex;
+justify-content: space-around;
+margin: auto;
+width: 83vw;}
+
+.au img {display: flex;
+justify-content: flex-start;
+margin-left: 1vw;
+margin-top: 4vw;
+margin-bottom: 4vw;}
+
+p {font-size: 1.5vw;
+margin-top: 4vw;
+margin-left: 4vw;
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+a {font-size: 1.5vw;
+margin-top: 7vw;
+margin-left: 4vw;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+}
+
+p a {display: flex;
+justify-content: right;
+}
+
+section {display: flex;
+justify-content: space-around;
+margin: auto;
+width: 81vw;
+margin-bottom:4vw ;}
+
+.ua {display: flex;
+justify-content: left;}
+
+.ua img {display: flex;
+justify-content: right;}
+
+
+footer {
+width: 84vw;
+height: 10vw;
+margin: auto;}
+
+footer img {width: 25vw;
+margin-top: 1.5vw;
+margin-left:28vw ;}
+
+@media screen and (max-width:600px) {
+     h1 {display: none;}
+  main div img {width: 50vw;}
+  section img {width: 50vw;}
+
+}
