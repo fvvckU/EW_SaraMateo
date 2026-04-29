@@ -1,0 +1,24 @@
+.container {grid-template-columns: 20% 80%;
+margin: 4vw;
+grid-template-areas:"header header" "nav aside" "footer footer";
+display: grid;}
+
+header {border: 0.5vw solid blue;
+color: blue;
+text-align: center;
+grid-area: header;
+}
+
+nav {border: 0.5vw solid blue;
+color: blue;
+grid-area: nav;
+padding-left: 1vw;}
+
+aside {border: 0.5vw solid blue;
+grid-area: aside;
+padding-left: 1vw;}
+
+footer {background-color: blue;
+color: white;
+grid-area: footer;
+text-align: center;}
