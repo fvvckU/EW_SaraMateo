@@ -1,0 +1,60 @@
+.container {grid-template-columns: 20% 80%;
+margin: 4vw;
+grid-template-areas:"header header" "nav aside" "footer footer";
+display: grid;}
+
+header {border: 0.5vw solid blue;
+color: blue;
+text-align: center;
+grid-area: header;
+}
+
+header img {width: 30vw;
+margin-top: 2vw;
+margin-bottom: 2vw;}
+
+nav {border: 0.5vw solid blue;
+color: blue;
+grid-area: nav;
+padding-left: 1vw;}
+
+nav div {
+margin-right: 1vw;
+margin-top: 3vw;
+text-align: center;
+border: 0.3vw solid blue;
+background-color: red;
+padding-top: 1vw;
+padding-bottom:1vw;}
+
+aside {border: 0.5vw solid blue;
+grid-area: aside;
+padding-left: 1vw;}
+
+aside img { width: 66vw;
+margin-top: 1vw;
+margin-bottom: 1vw;
+margin-left: 1vw;
+margin-right: 1vw;
+}
+
+footer {
+border: 0.5vw solid blue;    
+color: white;
+padding: 2vw;
+grid-area: footer;
+text-align: center;
+display: grid;
+}
+
+footer div {border: 0.3vw solid blue;}
+
+footer div img {width:50%;}
+
+.A {grid-row: 1/3;}
+
+.I {grid-column: 1/4;
+background-color: blue;
+text-align: center;
+padding-top: 1vw;
+padding-bottom: 1vw;}
